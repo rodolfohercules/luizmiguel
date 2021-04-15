@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400&display=swap");
 
-
-
 body {
   background: #483d8b;
   color: white;
   font-weight: 500;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 body .h2 {
@@ -36,45 +33,36 @@ main h1 {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
-
-
 main h2 {
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   background: #8470ff;
   border-radius: 9px;
-  padding: 0,2rem;
+  padding: 0, 2rem;
   margin-top: 1rem;
-  
 }
 
 .corpo {
-    margin: auto;
-    width: 960px;
+  margin: auto;
+  width: 960px;
+  height: 960px;
 }
 
 .conteudo {
-    display:table;
+  display: table-cell;
 }
 
-.imagem {
-display:table-cell;
-float: right;
-margin-right: 45px;
-}
-
-#imgpessoal {
-    display: flex;
-    float: left;
-    border-radius: 8rem;
-    width: 280px;
-    margin-top: 70px;
-    margin-left: 70px;
+.imgpessoal {
+  display: table-cell;
+  float: right;
+  margin-left: 80px;
+  border-radius: 50px;
 }
 
 .texto {
-display: table-cell;
-float: left;
-width: 550px;
+  display: table-cell;
+  justify-items: center;
+  width: 550px;
+  border-right: 89px;
 }
