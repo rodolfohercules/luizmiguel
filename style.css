@@ -60,6 +60,10 @@ main h2 {
   border-radius: 50px;
 }
 
+#imgredondo{
+  border-radius: 140px;
+}
+
 .texto {
   display: table-cell;
   justify-items: center;
